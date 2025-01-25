@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <title>JK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+    <div class="container py-5">
+        <header class="text-center mb-4">
+            <h1 class="display-4 text-primary">Chiste al alzar!</h1>
+        </header>
+        <div class="content text-center">
+            <div class="joke">
+                <p><span class="joke_single fs-4 fw-bold"></span></p>
+                <p><span class="joke_twoparts fs-5 text-muted"></span></p>
+            </div>
+            <div class="buttons">
+                <button id="btnJoke" name="btnJoke" class="btn btn-info btn-lg">Dame un Chiste!</button>
+                <button id="btnReset" name="btnReset" class="btn btn-warning btn-lg" onclick="window.location.reload();">Reinicio</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
